@@ -45,9 +45,11 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
+      <SectionText>Name : Đinh Ngọc Tùng</SectionText>
+      <SectionText>Date of birth : 10/11/1991</SectionText>
+      <SectionText>Location : Hoàng Mai, Hà Nội</SectionText>
       <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
-      </SectionText>
+      From the past, I've worked in hospitality for 5 years and then I decided to switch to Information Technologies. Finding that learning coding is interesting, I decided to switch to IT and want to dedicate myself to make the world better      </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
